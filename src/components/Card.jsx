@@ -1,5 +1,5 @@
  import { useState, useEffect } from "react";
-import dummyImg from "./assets/images/2.jpg";
+import dummyImg from "../assets/images/2.jpg";
 const Card = ({heading, para, imgSrc, authorlight, authordark}) => {
   const [dark, setDark] = useState(false);
     console.table([heading, para, imgSrc, authorlight, authordark]);

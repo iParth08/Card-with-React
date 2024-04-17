@@ -1,5 +1,7 @@
-import Card from "./Card";
-import data from "./assets/databank";
+import CardHolder from "./components/CardHolder";
+import SignUpForm from "./components/SignUpForm";
+
+
 
 // Wrapper Component for all
 function App() {
@@ -9,28 +11,12 @@ function App() {
         <h1 className="text-3xl text-white my-5">Story Cards</h1>
       </div>
 
-      <div className="w-screen h-[40rem] px-10  bg-gray-900 ">
-        <div
-          id="cards-container"
-          className="overflow-y-auto w-auto h-[40rem] bg-inherit flex flex-row gap-4 items-center justify-around"
-        >
-          {/* Inject Cards here with map */}
-          {/* No Props are send for this first card */}
-          <Card /> 
-          {/* Rest cards are mapped from data array with props */}
-          {data.map((item) => {
-            return (
-              <Card
-                key={item.id}
-                heading={item.heading}
-                para={item.para}
-                imgSrc={item.imgSrc}
-                authorlight={item.authorLight}
-                authordark={item.authorDark}
-              />
-            );
-          })}
-        </div>
+      <div className="w-screen px-10 py-10 bg-gray-900 flex justify-center items-center ">
+        
+        {/* Injecting Cards here */}
+        {/* <CardHolder /> */}
+        {/* Injecting Sign Up Form */}
+        <SignUpForm />
       </div>
 
       {/* Footer */}
