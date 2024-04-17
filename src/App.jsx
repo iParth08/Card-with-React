@@ -1,4 +1,3 @@
-import CardHolder from "./components/CardHolder";
 import SignUpForm from "./components/SignUpForm";
 
 
@@ -8,14 +7,11 @@ function App() {
   return (
     <>
       <div id="head" className="w-screen bg-cyan-600 flex justify-center ">
-        <h1 className="text-3xl text-white my-5">Story Cards</h1>
+        <h1 className="text-3xl text-white my-5">Form Component in React</h1>
       </div>
 
       <div className="w-screen px-10 py-10 bg-gray-900 flex justify-center items-center ">
         
-        {/* Injecting Cards here */}
-        {/* <CardHolder /> */}
-        {/* Injecting Sign Up Form */}
         <SignUpForm />
       </div>
 
