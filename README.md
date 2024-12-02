@@ -1,4 +1,9 @@
-# Story Card
+# THIS WAS CREATED TO JUST TEACH MY FRIENDS.
+> [!Warning]
+> 
+>  UNATTENDED NOW.
+
+## Story Card
 
 > [!Important]
 > This story card component has an image/video component, title and description, author.
